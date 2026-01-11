@@ -10,7 +10,7 @@ async function downloadHTML() {
   status.textContent = "Fetching HTML...";
 
   try {
-    const response = await fetch("YOUR_BACKEND_URL_HERE", {
+    const response = await fetch("https://fragrant-field-f1e3.walshjayson720.workers.dev/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
